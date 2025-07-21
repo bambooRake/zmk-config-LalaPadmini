@@ -24,7 +24,8 @@
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 3 2>;
-//,
+
+    //,
     //<&zip_temp_layer MOUSE_R_LAYER 300>;
 
     lowspeedmode {
@@ -32,7 +33,8 @@
         input-processors =
             <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_scaler 3 5>;
-//,
+
+        //,
         //<&zip_temp_layer MOUSE_R_LAYER 300>;
     };
 
@@ -176,7 +178,7 @@
 &mt LEFT_ALT Q    &kp W           &kp E  &mt LEFT_ALT R    &kp T           &kp Y          &kp U                                &kp I      &kp O       &kp P
 &mt RCTRL A       &mt LEFT_GUI S  &kp D  &mt RIGHT_GUI F   &mt LEFT_GUI G  &kp H          &kp J                                &kp K      &kp L       &kp SEMI
 &mt LEFT_SHIFT Z  &kp X           &kp C  &mt LEFT_SHIFT V  &kp B           &kp N          &kp M                                &kp COMMA  &kp PERIOD  &kp SLASH
-&kp LGUI          &lt 2 TAB              &mo 4             &lt 1 SPACE     &kp BACKSPACE  &mt INTERNATIONAL_4 INTERNATIONAL_5             &lt 3 CAPS  &kp ENTER
+&mo 3             &lt 2 TAB              &mo 4             &lt 1 SPACE     &kp BACKSPACE  &mt INTERNATIONAL_4 INTERNATIONAL_5             &mo 3       &kp ENTER
             >;
         };
 

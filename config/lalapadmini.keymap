@@ -190,10 +190,10 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN        &kp HASH      &kp DOLLAR            &kp PERCENT            &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END    &kp PRINTSCREEN
-&kp CARET             &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &none
-&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &mkp MB4  &none         &mkp MB5   &kp RIGHT_SHIFT
-&trans                &trans                           &trans                &trans                 &trans         &trans                  &trans     &trans
+&kp EXCLAMATION       &kp AT_SIGN    &kp HASH      &kp DOLLAR            &trans                 &trans  &trans  &trans  &trans  &trans
+&kp CARET             &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_SHIFT TILDE  &trans         &trans        &kp LEFT_BRACE        &trans                 &trans  &trans  &trans  &trans  &trans
+&trans                &trans                       &trans                &trans                 &trans  &trans          &trans  &trans
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;

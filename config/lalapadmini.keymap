@@ -178,7 +178,7 @@
 &mt LEFT_ALT Q    &kp W           &kp E  &mt LEFT_ALT R    &kp T           &kp Y          &kp U                                &kp I      &kp O       &kp P
 &mt RCTRL A       &mt LEFT_GUI S  &kp D  &mt RIGHT_GUI F   &mt LEFT_GUI G  &kp H          &kp J                                &kp K      &kp L       &kp SEMI
 &mt LEFT_SHIFT Z  &kp X           &kp C  &mt LEFT_SHIFT V  &kp B           &kp N          &kp M                                &kp COMMA  &kp PERIOD  &kp SLASH
-&mo 3             &lt 2 TAB              &mo 4             &lt 1 SPACE     &kp BACKSPACE  &mt INTERNATIONAL_4 INTERNATIONAL_5             &mo 3       &kp ENTER
+&kp LGUI          &lt 2 TAB              &mo 4             &lt 1 SPACE     &kp BACKSPACE  &mt INTERNATIONAL_4 INTERNATIONAL_5             &kp CLCK    &kp ENTER
             >;
         };
 
@@ -221,7 +221,7 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&mt LALT SINGLE_QUOTE    &msc MOVE_X(10)  &msc MOVE_Y(-20)  &msc MOVE_X(-10)  &mkp MB5   &kp HOME        &kp PG_UP       &kp PAGE_DOWN  &kp END    &mo 3
+&mt LALT SINGLE_QUOTE    &msc MOVE_X(10)  &msc MOVE_Y(-20)  &msc MOVE_X(-10)  &mkp MB5   &kp HOME        &kp PG_UP       &kp PAGE_DOWN  &kp END    &trans
 &mt RIGHT_CONTROL MINUS  &mt LGUI ENTER   &msc MOVE_Y(20)   &mkp LCLK         &mkp MCLK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &mo 5
 &mt LSHIFT GRAVE         &kp BACKSPACE    &kp DELETE        &mkp RCLK         &mkp MB4   &kp F16         &kp F17         &kp F18        &kp F19    &trans
 &trans                   &trans                             &trans            &trans     &trans          &trans                         &trans     &trans

@@ -15,9 +15,11 @@
 #define SCROLL_L_LAYER  7
 
 // Mouse Scroll Value
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 // cirque trackpad input&layer control
+
 &glidepoint_listener_R {
     input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
@@ -166,10 +168,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp Q             &kp W         &kp E  &kp R      &kp T  &kp Y            &kp U      &kp I      &kp O                    &kp P
-&kp A             &kp S         &kp D  &kp F      &kp G  &kp H            &kp J      &kp K      &kp L                    &mt2 EQUAL MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C  &kp V      &kp B  &kp N            &kp M      &kp COMMA  &kp PERIOD               &mt RSHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT         &kp SPACE  &mo 1  &lt 2 BACKSPACE  &kp ENTER             &mt CAPSLOCK LANGUAGE_2  &mt RCTRL LANGUAGE_1
+&mt LEFT_ALT Q    &kp W           &kp E  &mt LEFT_ALT R    &kp T           &kp Y            &kp U      &kp I      &kp O                    &kp P
+&mt RCTRL A       &mt LEFT_GUI S  &kp D  &mt RIGHT_GUI F   &mt LEFT_GUI G  &kp H            &kp J      &kp K      &kp L                    &mt2 EQUAL MINUS
+&mt LEFT_SHIFT Z  &kp X           &kp C  &mt LEFT_SHIFT V  &kp B           &kp N            &kp M      &kp COMMA  &kp PERIOD               &mt RSHIFT SLASH
+&kp LCTRL         &lt 2 TAB              &kp SPACE         &mo 1           &lt 2 BACKSPACE  &kp ENTER             &mt CAPSLOCK LANGUAGE_2  &mt RCTRL LANGUAGE_1
             >;
         };
 

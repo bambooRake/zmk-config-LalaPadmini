@@ -223,7 +223,7 @@
             bindings = <
 &mt LALT SINGLE_QUOTE    &msc MOVE_X(10)  &msc MOVE_Y(-20)  &msc MOVE_X(-10)  &mkp MB5   &kp HOME        &kp PG_UP       &kp PAGE_DOWN  &kp END    &trans
 &mt RIGHT_CONTROL MINUS  &mt LGUI ENTER   &msc MOVE_Y(20)   &mkp LCLK         &mkp MCLK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT  &mo 5
-&mt LSHIFT GRAVE         &kp BACKSPACE    &kp DELETE        &mkp RCLK         &mkp MB4   &kp F16         &kp F17         &kp F18        &kp F19    &trans
+&mt LSHIFT ESCAPE        &kp BACKSPACE    &kp DELETE        &mkp RCLK         &mkp MB4   &kp F16         &kp F17         &kp F18        &kp F19    &trans
 &trans                   &trans                             &trans            &trans     &trans          &trans                         &trans     &trans
             >;
         };
